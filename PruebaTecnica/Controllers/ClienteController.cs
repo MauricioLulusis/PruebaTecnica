@@ -21,8 +21,6 @@ namespace WebApiClientes.Controllers
         {
             _context = context;
         }
-
-
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
         {
